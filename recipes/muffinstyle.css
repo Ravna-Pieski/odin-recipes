@@ -1,0 +1,33 @@
+@font-face { 
+    font-family: 'MyFont'; 
+    src: 
+        url('../fonts/alba.TTF')  
+        format('opentype'); 
+} 
+
+body {
+    font-family: 'MyFont', sans-serif;
+    background-color:greenyellow;
+    text-align: center;
+    font-size: 25px;
+    border: 20px solid rgb(253, 46, 181)
+}
+
+div.ingredients {
+    text-align: center;
+    font-size: 20px;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+ol.myOL {
+    text-align: left;
+}
+
+div.source {
+    text-align: center;
+    font-size: 20px;
+}
