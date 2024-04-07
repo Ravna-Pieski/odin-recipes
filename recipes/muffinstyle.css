@@ -18,12 +18,19 @@ div.ingredients {
     font-size: 20px;
 }
 
+div.steps {
+    text-align: center;
+    font-size: 20px;
+}
+
 ul.myUL {
     display: inline-block;
     text-align: left;
 }
 
 ol.myOL {
+    justify-content: center;
+    display: inline-block;
     text-align: left;
 }
 
